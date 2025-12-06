@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm run build)",
+      "Bash(find:*)",
+      "Bash(cat:*)",
+      "Bash(tree:*)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm dlx:*)",
+      "Bash(pnpm dev)",
+      "Bash(ls:*)",
+      "Bash(npx shadcn@latest init --force)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

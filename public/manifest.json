@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Dashboard",
+  "version": "1.0.0",
+  "description": "스마트워치 스타일 대시보드",
+  "sidebar_action": {
+    "default_page": "index.html",
+    "default_icon": {
+      "16": "icons/icon16.png"
+    },
+    "default_title": "Dashboard",
+    "use_navigation_bar": false
+  },
+  "permissions": ["storage", "tabs", "bookmarks"]
+}
