@@ -9,7 +9,8 @@
       "Bash(pnpm dlx:*)",
       "Bash(pnpm dev)",
       "Bash(ls:*)",
-      "Bash(npx shadcn@latest init --force)"
+      "Bash(npx shadcn@latest init --force)",
+      "Bash(node:*)"
     ],
     "deny": [],
     "ask": []
