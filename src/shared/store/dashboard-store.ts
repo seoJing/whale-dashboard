@@ -1,16 +1,19 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import type {
-    WidgetInstance,
-    WidgetType,
-    WidgetSettings,
-    ClockSettings,
-    TodoSettings,
-    TimerSettings,
-    CalendarSettings,
-    BookmarksSettings,
-} from '@entities/widget';
-import { createWidgetInstance, getWidgetConfig } from '@entities/widget';
+import type { WidgetInstance, WidgetType } from '@shared/types';
+import { createWidgetInstance, getWidgetConfig } from '@shared/types';
+import type { ClockSettings } from '@features/clock/types';
+import type { TodoSettings } from '@features/todo/types';
+import type { TimerSettings } from '@features/timer/types';
+import type { CalendarSettings } from '@features/calendar/types';
+import type { BookmarksSettings } from '@features/bookmarks/types';
+
+type WidgetSettings =
+    | ClockSettings
+    | TodoSettings
+    | TimerSettings
+    | CalendarSettings
+    | BookmarksSettings;
 
 // Widget type별 전역 설정
 interface WidgetTypeSettings {

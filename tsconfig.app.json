@@ -27,11 +27,9 @@
         /* Path Mapping */
         "baseUrl": ".",
         "paths": {
-            "@app/*": ["src/app/*"],
-            "@pages/*": ["src/pages/*"],
-            "@widgets/*": ["src/widgets/*"],
+            "@core/*": ["src/core/*"],
+            "@layouts/*": ["src/layouts/*"],
             "@features/*": ["src/features/*"],
-            "@entities/*": ["src/entities/*"],
             "@shared/*": ["src/shared/*"]
         }
     },

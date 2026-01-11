@@ -10,7 +10,9 @@
       "Bash(pnpm dev)",
       "Bash(ls:*)",
       "Bash(npx shadcn@latest init --force)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(pnpm build:*)",
+      "Bash(xargs sed:*)"
     ],
     "deny": [],
     "ask": []
